@@ -1,9 +1,9 @@
 {
     "author": {
-        "name": "https://github.com/tagama"
+        "name": "https://github.com/gusmanzord"
     },
-    "name": "sca-ngular",
-    "version": "0.0.10",
+    "name": "sca-ngular-adocao",
+    "version": "0.0.13",
     "ignore": [],
     "main": ["./sca-ngular.js"],
     "dependencies": {
