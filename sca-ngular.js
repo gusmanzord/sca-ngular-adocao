@@ -39,7 +39,7 @@ angular.module('sca-ngular', ['http-auth-interceptor', 'base64'])
         }
 
     }])
-    .controller('userController', ['$scope', 'loginService', '$document', function ($scope, loginService) {
+    .controller('userController', ['$location','$scope', 'loginService', function ($location, $scope, loginService) {
 
         $scope.logout = function () {
             loginService.logout();
