@@ -3,7 +3,7 @@
         "name": "https://github.com/gusmanzord"
     },
     "name": "sca-ngular-adocao",
-    "version": "0.0.14",
+    "version": "0.0.15",
     "ignore": [],
     "main": ["./sca-ngular.js"],
     "dependencies": {
