@@ -170,7 +170,7 @@ angular.module('sca-ngular', ['http-auth-interceptor', 'base64'])
         return {
             restrict: 'A',
             template:
-            '<div class="navbar-right" ng-controller="userController" ng-show="isAuthenticated">' +
+            '<div id="sca-login-box" class="navbar-right" ng-controller="userController" ng-show="isAuthenticated">' +
                 '<ul class="nav navbar-nav">' +
                     '<li class="dropdown user user-menu">' +
                         '<a href="" class="dropdown-toggle" data-toggle="dropdown"> <i class="glyphicon glyphicon-user"></i></a>' +
